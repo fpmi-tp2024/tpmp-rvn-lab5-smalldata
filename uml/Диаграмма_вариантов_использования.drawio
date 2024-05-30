@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2024-05-30T13:11:09.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="EwC09CIHzw0Z99-HQTpQ" version="24.4.10" type="google">
+  <diagram name="Страница — 1" id="zuqp2Po2m-LaYWlb6IYG">
+    <mxGraphModel dx="996" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="MUNe5dQPBLSCCpXamLw0-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="320" as="sourcePoint" />
+            <mxPoint x="245" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="MUNe5dQPBLSCCpXamLw0-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169" y="320" as="sourcePoint" />
+            <mxPoint x="245" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIoIc8A-td_14DL6wGfQ-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="134" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aIoIc8A-td_14DL6wGfQ-2" value="Гос. служба и&lt;br&gt;автомастерские" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="655" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aIoIc8A-td_14DL6wGfQ-3" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="70" width="400" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-2" value="Легкое распределение работы и планирование ресурсов на основе данных о прошлых ремонтах и текущих загруженностях мастерских." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="90" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-4" value="Оптимизация графиков работы на основе данных о загруженности мастерских и мастеров." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="170" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-5" value="Планирование закупок и ресурсов (например, &lt;br&gt;запасных частей, инструментов и материалов) на основе истории ремонтов." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="250" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-6" value="Мониторинг качества обслуживания и выявление проблемных зон (например, мастерские с частыми возвратами или жалобами)." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="330" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-7" value="Анализ причин неудачных ремонтов и разработка мероприятий по их предотвращению." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="410" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-3" value="Руководители и менеджеры могут отслеживать количество и виды выполненных работ, общую выручку, а также производительность каждого мастера." style="ellipse;whiteSpace=wrap;html=1;" parent="aIoIc8A-td_14DL6wGfQ-3" vertex="1">
+          <mxGeometry x="40" y="10" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="aIoIc8A-td_14DL6wGfQ-3" source="aIoIc8A-td_14DL6wGfQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="267.5" as="sourcePoint" />
+            <mxPoint x="360" y="443.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="250" />
+              <mxPoint x="420" y="444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="aIoIc8A-td_14DL6wGfQ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="284.5" as="sourcePoint" />
+            <mxPoint x="360" y="284.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aIoIc8A-td_14DL6wGfQ-4" value="База данных" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="680" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149" y="319" as="sourcePoint" />
+            <mxPoint x="239" y="114" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="149" y="320" />
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="114" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149" y="319" as="sourcePoint" />
+            <mxPoint x="239" y="354" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="149" y="320" />
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149" y="319" as="sourcePoint" />
+            <mxPoint x="239" y="434" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="149" y="320" />
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="319" as="sourcePoint" />
+            <mxPoint x="240" y="514" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="155" y="320" />
+              <mxPoint x="195" y="320" />
+              <mxPoint x="195" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="MUNe5dQPBLSCCpXamLw0-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="435" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="MUNe5dQPBLSCCpXamLw0-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="320" as="sourcePoint" />
+            <mxPoint x="570" y="523.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="320" />
+              <mxPoint x="620" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="274" as="sourcePoint" />
+            <mxPoint x="560" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUNe5dQPBLSCCpXamLw0-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="194.5" as="sourcePoint" />
+            <mxPoint x="560" y="194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZo7lEiN61szybbDWlU_-1" value="Приложение" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="345" y="38" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
