@@ -11,7 +11,43 @@
 # Схема базы данных
 
 Схема базы данных:
-![image](https://user-images.githubusercontent.com/78850640/165361737-51b31941-f0d3-4b9f-88a2-4521e917d77a.png)
+![image](https://github.com/fpmi-tp2024/tpmp-rvn-lab5-smalldata/blob/main/docs/db.jpg)
 
-Ссылка на sql-файл:
-[https://drive.google.com/drive/folders/1tEMWOVVS9TNj40xsB9Vrt1Jd6hytEBK3?usp=sharing](https://drive.google.com/drive/folders/1tEMWOVVS9TNj40xsB9Vrt1Jd6hytEBK3?usp=sharing)
+sql-файл:
+```sql
+CREATE TABLE workshops (
+    workshop_id INTEGER PRIMARY KEY,
+    workshop_address TEXT,
+    brands TEXT  -- Перечень марок ремонтируемых машин, хранится в виде строки, разделенной ;
+);
+
+CREATE TABLE masters (
+    master_id INTEGER PRIMARY KEY,
+    name TEXT,
+    workshop_id INTEGER,
+    FOREIGN KEY (workshop_id) REFERENCES workshops(workshop_id)
+);
+
+CREATE TABLE cars (
+    license_plate TEXT PRIMARY KEY,
+    brand TEXT,
+    year INTEGER,
+    owner_last_name TEXT,
+    tech_passport_number TEXT,
+    owner_address TEXT
+);
+
+CREATE TABLE repairs (
+    repair_id INTEGER PRIMARY KEY,
+    workshop_id INTEGER,
+    date_received DATE,
+    date_completed DATE,
+    license_plate TEXT,
+    repair_type TEXT,
+    repair_cost REAL,
+    master_id INTEGER,
+    FOREIGN KEY (workshop_id) REFERENCES workshops(workshop_id),
+    FOREIGN KEY (license_plate) REFERENCES cars(license_plate),
+    FOREIGN KEY (master_id) REFERENCES masters(master_id)
+);
+```
