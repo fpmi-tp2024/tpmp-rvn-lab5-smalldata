@@ -11,7 +11,7 @@
 # Схема базы данных
 
 Схема базы данных:
-![image](https://github.com/fpmi-tp2024/tpmp-rvn-lab5-smalldata/blob/main/docs/db.jpg)
+![image](https://raw.githubusercontent.com/fpmi-tp2024/tpmp-rvn-lab5-smalldata/main/docs/db.jpg)
 
 sql-файл:
 ```sql

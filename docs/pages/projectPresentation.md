@@ -37,16 +37,21 @@
 
 
 #### Сценарий для администратора:
-1. Администратор вводит логин и пароль. 
-2. После подтверждения логина и пароля система отображает меню.
-3. Администратор выбирает одну из следующий опций:
-* Вставить данные
-* Обновить данные
-* Удалить данные
-* Выбрать данные
-* Выйти
-4. Взаимодействуя с системой, администратор работает с приложением.
-
+1. Add workshop 
+2. Show repairs by workshop 
+3. Add master 
+4. Add car
+5. Add repair 
+6. Show repairs by master 
+7. Show repairs by car brand 
+8. Show summary of each workshop 
+9. Show details of the top repair workshop 
+10. Update car details 
+11. Update master details 
+12. Delete car 
+13. Delete master 
+14. Show works on a specific date for a workshop 
+15. Show works by period and workshop 
 
 
 ### Требования к безопасности:
